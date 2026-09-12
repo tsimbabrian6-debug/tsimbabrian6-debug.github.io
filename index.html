@@ -38,8 +38,32 @@ a{color:#17324d}
 </section>
 <section>
   <h2>Client Feedback</h2>
-  <p>If you have reviewed my work, I would appreciate your feedback.</p>
-  <p><a href="mailto:tsimbabrian6@gmail.com?subject=Portfolio Feedback">Send Feedback by Email</a></p>
+  <form action="https://formspree.io/f/mrpgvzwn" method="POST">
+
+  <label for="name">Your Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Your Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="rating">Rating:</label><br>
+  <select id="rating" name="rating" required>
+    <option value="">Select a rating</option>
+    <option value="5 Stars">★★★★★ 5 Stars</option>
+    <option value="4 Stars">★★★★ 4 Stars</option>
+    <option value="3 Stars">★★★ 3 Stars</option>
+    <option value="2 Stars">★★ 2 Stars</option>
+    <option value="1 Star">★ 1 Star</option>
+  </select><br><br>
+
+  <label for="review">Your Review:</label><br>
+  <textarea id="review" name="review" rows="5" required></textarea><br><br>
+
+  <button type="submit">Submit Review</button>
+
+</form>
+  If you have reviewed my work, I would appreciate your feedback.</p>
+  <a href="mailto:tsimbabrian6@gmail.com?subject=Portfolio Feedback">Send Feedback by Email</a></p>
 </section>
 <section>
   <h2>Reviews & Testimonials</h2>
